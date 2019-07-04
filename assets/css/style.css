@@ -167,6 +167,7 @@ ul.navbar-nav {
 	color: #fff;
 }
 
+
 .navbar-inverse ul.navbar-nav li a { padding-top: 20px; padding-bottom: 20px; color: #fff; opacity: 0.8; }
 .navbar-inverse ul.navbar-nav li a:hover { color: #fff; opacity: 1; }
 .navbar-inverse ul.navbar-nav li a:focus { color: #fff; outline: 0; opacity: 1; }
@@ -245,6 +246,13 @@ ul.navbar-nav {
 	margin-top: 30px;
 	margin-bottom: 20px;
 }
+.image-container {
+  overflow: hidden;
+  width: 100%;
+   /*define your height here*/
+  height: 100 px; 
+}
+
 
 .more-features-box-text {
 	margin-top: 40px;

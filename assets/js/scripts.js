@@ -40,6 +40,24 @@ jQuery(document).ready(function() {
     	$('.top-content').backstretch("resize");
     });
     
+    
+    
+    var height = $('.image-container').height();
+var width = $('.image-container').width();
+if (height > width) {
+  $('.image-container img').css({
+    width: "auto",
+    height: "100%"
+
+  });
+} else {
+  $('.image-container img').css({
+    width: "100%",
+    height: "auto"
+
+  });
+
+}
     /*
         Wow
     */
