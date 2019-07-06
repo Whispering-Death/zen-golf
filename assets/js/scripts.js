@@ -29,7 +29,7 @@ jQuery(document).ready(function() {
     /*
         Background slideshow
     */
-    $('.top-content').backstretch("assets/img/backgrounds/1.jpg");
+    $('.top-content').backstretch("assets/img/backgrounds/001.jpg");
     $('.how-it-works-container').backstretch("assets/img/backgrounds/course_1.jpg");
     $('.call-to-action-container').backstretch("assets/img/about/sea_2.jpg");
     
@@ -42,22 +42,8 @@ jQuery(document).ready(function() {
     
     
     
-    var height = $('.image-container').height();
-var width = $('.image-container').width();
-if (height > width) {
-  $('.image-container img').css({
-    width: "auto",
-    height: "100%"
+    
 
-  });
-} else {
-  $('.image-container img').css({
-    width: "100%",
-    height: "auto"
-
-  });
-
-}
     /*
         Wow
     */
