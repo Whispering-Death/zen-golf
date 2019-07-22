@@ -476,9 +476,9 @@ footer {
 
 
 
-.program li
+.program
 {
-    float:left;
+    text-align: left;
 }
 
 
@@ -518,21 +518,18 @@ h1 .btn {
     margin-right: -19px;
 }
 #quote-carousel .carousel-indicators li {
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-    border: 1px solid #ccc;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    border-radius: 50%;
-    opacity: 0.4;
+   
+    
+    background: #66d6c5;
+   
+    opacity: 0.0;
     overflow: hidden;
     transition: all .4s ease-in;
     vertical-align: middle;
 }
 #quote-carousel .carousel-indicators .active {
-    width: 128px;
-    height: 128px;
-    opacity: 1;
+   
+    opacity: 0.0;
     transition: all .2s;
 }
 .item blockquote {
