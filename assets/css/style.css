@@ -476,7 +476,10 @@ footer {
 
 
 
-
+.program li
+{
+    float:left;
+}
 
 
 
@@ -541,4 +544,29 @@ h1 .btn {
     font-family: 'Fontawesome';
     float: left;
     margin-right: 10px;
+}
+
+
+
+
+
+.comment {
+	width: 400px;
+	background-color: #f0f0f0;
+	margin: 10px;
+}
+a.morelink {
+	text-decoration:none;
+	outline: none;
+}
+.morecontent span {
+	display: none;
+
+}
+
+a {
+	color: #0254EB
+}
+a:visited {
+	color: #0254EB
 }
